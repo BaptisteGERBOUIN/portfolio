@@ -1,0 +1,34 @@
+#projets {
+  background: linear-gradient(135deg, #E3F2FD, #E8EAF6);
+  color: #333;
+  padding: 60px 0;
+}
+
+.projects {
+  height: 100vh;
+  background-color: #ddd;
+}
+
+.mes-projets-title {
+  /* font-size: 2.5rem;
+  font-weight: bold;
+  color: #bab9b8; */
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.card-gradient {
+  background: linear-gradient(135deg, #E8EAF6, #F8F5F2);
+  color: #333;
+  border: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); 
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  filter: invert(50%); 
+}

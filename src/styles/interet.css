@@ -1,0 +1,31 @@
+#interet {
+  background: linear-gradient(135deg, #FCE4EC, #E8F5E9);
+  color: #333;
+  padding: 60px 0;
+}
+
+.interests-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .interest-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .interest-image {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .interest-image:hover {
+    transform: scale(1.1); /* Zoom au survol */
+    transition: transform 0.3s ease-in-out;
+  }
+  

@@ -1,0 +1,50 @@
+#accueil {
+  background-color: #F8F5F2;
+  color: #333;
+  padding: 60px 0;
+}
+
+.accueil-simplifie-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5A595D;
+  color: white;
+  padding: 20px;
+}
+
+.profile-photo {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.Nom_prenom {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.presentation-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.explore-button {
+  background-color: #c6e1f4; /* Bleu léger */
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+}
+
+.explore-button:hover {
+  background-color: #f8d3df; /* Rose pâle */
+  color: #333;
+}
