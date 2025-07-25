@@ -1,4 +1,3 @@
-body, html {
-  height: 100%;
-  background-color: #5A595D;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
